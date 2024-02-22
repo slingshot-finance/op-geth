@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/core/rawdb"
+	"github.com/slingshot-finance/op-geth/core/types"
+	"github.com/slingshot-finance/op-geth/trie/triedb/pathdb"
+	"github.com/slingshot-finance/op-geth/trie/utils"
 )
 
 var (

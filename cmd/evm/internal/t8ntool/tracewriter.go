@@ -21,10 +21,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/core/vm"
+	"github.com/slingshot-finance/op-geth/eth/tracers"
+	"github.com/slingshot-finance/op-geth/log"
 )
 
 // traceWriter is an vm.EVMLogger which also holds an inner logger/tracer.

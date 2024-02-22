@@ -23,13 +23,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/slingshot-finance/op-geth/common/mclock"
+	"github.com/slingshot-finance/op-geth/ethdb"
+	"github.com/slingshot-finance/op-geth/log"
+	"github.com/slingshot-finance/op-geth/metrics"
+	"github.com/slingshot-finance/op-geth/p2p/enode"
+	"github.com/slingshot-finance/op-geth/p2p/enr"
+	"github.com/slingshot-finance/op-geth/rlp"
 )
 
 var (

@@ -28,8 +28,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/rlp"
 )
 
 var (

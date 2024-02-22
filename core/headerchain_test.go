@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/slingshot-finance/op-geth/consensus"
+	"github.com/slingshot-finance/op-geth/consensus/ethash"
+	"github.com/slingshot-finance/op-geth/core/rawdb"
+	"github.com/slingshot-finance/op-geth/core/types"
+	"github.com/slingshot-finance/op-geth/params"
+	"github.com/slingshot-finance/op-geth/trie"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

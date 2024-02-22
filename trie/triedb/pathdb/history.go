@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/core/rawdb"
+	"github.com/slingshot-finance/op-geth/ethdb"
+	"github.com/slingshot-finance/op-geth/log"
+	"github.com/slingshot-finance/op-geth/trie/triestate"
 	"golang.org/x/exp/slices"
 )
 

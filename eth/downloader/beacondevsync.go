@@ -20,8 +20,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/log"
 )
 
 // BeaconDevSync is a development helper to test synchronization by providing

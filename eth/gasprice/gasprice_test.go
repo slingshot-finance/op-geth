@@ -22,16 +22,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/consensus/ethash"
+	"github.com/slingshot-finance/op-geth/core"
+	"github.com/slingshot-finance/op-geth/core/rawdb"
+	"github.com/slingshot-finance/op-geth/core/types"
+	"github.com/slingshot-finance/op-geth/core/vm"
+	"github.com/slingshot-finance/op-geth/crypto"
+	"github.com/slingshot-finance/op-geth/event"
+	"github.com/slingshot-finance/op-geth/params"
+	"github.com/slingshot-finance/op-geth/rpc"
 )
 
 const testHead = 32

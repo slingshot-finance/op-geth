@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/slingshot-finance/op-geth/core"
+	"github.com/slingshot-finance/op-geth/core/forkid"
+	"github.com/slingshot-finance/op-geth/p2p/enr"
+	"github.com/slingshot-finance/op-geth/params"
+	"github.com/slingshot-finance/op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

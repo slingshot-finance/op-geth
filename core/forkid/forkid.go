@@ -26,9 +26,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/slingshot-finance/op-geth/core/types"
+	"github.com/slingshot-finance/op-geth/log"
+	"github.com/slingshot-finance/op-geth/params"
 	"golang.org/x/exp/slices"
 )
 

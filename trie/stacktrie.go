@@ -21,10 +21,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/core/types"
+	"github.com/slingshot-finance/op-geth/log"
+	"github.com/slingshot-finance/op-geth/metrics"
 )
 
 var (

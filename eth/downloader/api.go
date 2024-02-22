@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/slingshot-finance/op-geth"
+	"github.com/slingshot-finance/op-geth/event"
+	"github.com/slingshot-finance/op-geth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

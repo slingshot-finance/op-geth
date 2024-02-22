@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/slingshot-finance/op-geth/accounts"
+	"github.com/slingshot-finance/op-geth/accounts/keystore"
+	"github.com/slingshot-finance/op-geth/cmd/utils"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

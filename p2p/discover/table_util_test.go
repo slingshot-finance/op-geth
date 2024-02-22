@@ -26,9 +26,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/slingshot-finance/op-geth/crypto"
+	"github.com/slingshot-finance/op-geth/p2p/enode"
+	"github.com/slingshot-finance/op-geth/p2p/enr"
 	"golang.org/x/exp/slices"
 )
 

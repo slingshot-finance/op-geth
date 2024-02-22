@@ -25,7 +25,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/slingshot-finance/op-geth/common"
 	"github.com/golang-jwt/jwt/v4"
 )
 

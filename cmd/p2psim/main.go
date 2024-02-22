@@ -44,13 +44,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/slingshot-finance/op-geth/crypto"
+	"github.com/slingshot-finance/op-geth/internal/flags"
+	"github.com/slingshot-finance/op-geth/p2p"
+	"github.com/slingshot-finance/op-geth/p2p/enode"
+	"github.com/slingshot-finance/op-geth/p2p/simulations"
+	"github.com/slingshot-finance/op-geth/p2p/simulations/adapters"
+	"github.com/slingshot-finance/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

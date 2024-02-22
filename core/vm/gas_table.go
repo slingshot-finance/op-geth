@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/common/math"
+	"github.com/slingshot-finance/op-geth/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

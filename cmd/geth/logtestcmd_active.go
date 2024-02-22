@@ -25,9 +25,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/internal/debug"
+	"github.com/slingshot-finance/op-geth/log"
 	"github.com/holiman/uint256"
 	"github.com/urfave/cli/v2"
 )

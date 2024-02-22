@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/common/hexutil"
+	"github.com/slingshot-finance/op-geth/eth"
+	"github.com/slingshot-finance/op-geth/eth/catalyst"
+	"github.com/slingshot-finance/op-geth/eth/ethconfig"
+	"github.com/slingshot-finance/op-geth/internal/utesting"
+	"github.com/slingshot-finance/op-geth/node"
+	"github.com/slingshot-finance/op-geth/p2p"
 )
 
 func makeJWTSecret() (string, [32]byte, error) {

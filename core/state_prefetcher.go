@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/slingshot-finance/op-geth/consensus"
+	"github.com/slingshot-finance/op-geth/core/state"
+	"github.com/slingshot-finance/op-geth/core/types"
+	"github.com/slingshot-finance/op-geth/core/vm"
+	"github.com/slingshot-finance/op-geth/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

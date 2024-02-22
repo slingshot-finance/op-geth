@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/slingshot-finance/op-geth/internal/cmdtest"
+	"github.com/slingshot-finance/op-geth/internal/reexec"
+	"github.com/slingshot-finance/op-geth/rpc"
 )
 
 type testgeth struct {

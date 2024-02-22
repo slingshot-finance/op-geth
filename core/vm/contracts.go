@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
-	"github.com/ethereum/go-ethereum/crypto/bls12381"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/slingshot-finance/op-geth/common"
+	"github.com/slingshot-finance/op-geth/common/math"
+	"github.com/slingshot-finance/op-geth/crypto"
+	"github.com/slingshot-finance/op-geth/crypto/blake2b"
+	"github.com/slingshot-finance/op-geth/crypto/bls12381"
+	"github.com/slingshot-finance/op-geth/crypto/bn256"
+	"github.com/slingshot-finance/op-geth/crypto/kzg4844"
+	"github.com/slingshot-finance/op-geth/params"
 	"golang.org/x/crypto/ripemd160"
 )
 
